@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #6a5151;
+  color: #110f0f;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background-color: rgb(255, 232, 232);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgb(33, 24, 24);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border: 2px solid rgb(71, 36, 36);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(117, 98, 98);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(30, 19, 19);
+}
+
+h2 {
+  text-decoration: underline dotted;
+  color: #201a1a;
+}
+
+.navbar {
+  text-align: center;
+  text-decoration: none;
+  color: #292222;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #473a3a;
+  padding-right: 50px;
+}
+
+.navbar a:hover {
+  color: #413a3a;
+  text-shadow: 2px 2px 2px #453f3f;
+}
+
+a {
+  color: #241a1a;
+}
+span {
+  font-weight: bold;
+}
+
+a:hover {
+  color: #827b7b;
+}
+
+#hero-section {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#main-about {
+  text-align: center;
+}
+
+#projects a,
+#contact a {
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #110f0f;
+  border-top: 1px solid #110f0f;
+}
+
+th {
+  border-top: 1px solid #110f0f;
+}
+
+#skills,
+#education,
+#projects,
+#goals,
+#contact {
+  padding-bottom: 40px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  padding-right: 80px;
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+}

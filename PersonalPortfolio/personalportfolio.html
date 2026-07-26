@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="personalportfolio.css">
   </head>
   <body>
+    <div class="container">
     <header>
       <h1>Personal Portfolio</h1>
-      <nav>
-        <h2>Navbar</h2>
+      <nav class="navbar">
+        <div class="links">
         <span><a href="#home">Home</a></span>
         <span><a href="#about">About</a></span>
         <span><a href="#skills">Skills</a></span>
         <span><a href="#projects">Projects</a></span>
         <span><a href="#contact">Contact</a></span>
+        </div>
       </nav>
       </header>
       <main>
@@ -27,26 +29,29 @@
           <p>Currrently:<span> <a href="https://www.bbdu.ac.in/" target="_blank">Babu Banarasi Das University Lucknow</a></p></span></p>
           <p>Future<span>Software Developer | Technical Project Manager</span></p>
           <p>Next Step: <span>Msc @ <a href="https://nus.edu.sg/" target="_blank">NUS</a>(SG)</span></p>
-          <span><a href="">[View Projects]</a></span>
-          <span><a href="">[Contact Me]</a></span>
+          <span><a href="#projects">[View Projects]</a></span>
+          <span><a href="#contact">[Contact Me]</a></span>
         </section>
         <section id="about">
             <hr>
           <h2>About</h2>
-          <p>Hello! Myself Aanya.</p>
+          <article id="main-about">
+          <p>Hello! I am Aanya.</p>
           <p>I am super ambitious. I love to dream big and take real steps to achieve it. I want to give myself the life I deserve.</p>
           <p>I am currently pursuing Bachelors in Technology from Lucknow and learning and growing more in Web development and Artficial Intelligence.</p>
           <p>This field helps me to step out of my comfort zone and learn new things everyday, and I love that!</p>
+          </article>
           <h3>Interests</h3>
           <ul>
-            <li>Showing creativity through Web projects.</li>
-            <li>Dancing.</li>
-            <li>Reading Books.</li>
-            <li>Using Artificial Intelligence to grow.</li>
-            <li>Self-Improvement & Self-Discipline.</li>
-            <li>Unlocking the potential I carry.</li>
+            <li>💻 Showing creativity through Web projects.</li>
+            <li>💃 Dancing.</li>
+            <li>📚 Reading Books.</li>
+            <li>🤖 Using Artificial Intelligence to grow.</li>
+            <li>🌱 Self-Improvement & Self-Discipline.</li>
+            <li>🪽 Unlocking the potential I carry.</li>
           </ul>
         </section>
+        <hr>
         <section id="skills">
           <h2>Skills</h2>
           <table>
@@ -80,11 +85,12 @@
         <section id="projects">
             <h2>Projects</h2>
                 <ol>
-                    <li>Bussiness Card: <a href="https://github.com/SereneSoftware/Certification-Projects/tree/main/BussinessCard" target="_blank">View Project</a></li>
-                    <li>Chocolate Recipe: <a href="https://github.com/SereneSoftware/Certification-Projects/tree/main/ChocolateCakeRecipe">View Project</a></li>
-                    <li>Singapore Guide: <a href="#">View Project</a></li>
+                    <li>Bussiness Card: <span><a href="https://github.com/SereneSoftware/Certification-Projects/tree/main/BussinessCard" target="_blank">View Project</a></span></li>
+                    <li>Chocolate Recipe: <span><a href="https://github.com/SereneSoftware/Certification-Projects/tree/main/ChocolateCakeRecipe" target="_blank">View Project</a></span></li>
+                    <li>Singapore Guide: <span><a href="https://github.com/SereneSoftware/Certification-Projects/tree/main/SingaporeTravelPage" target="_blank">View Project</a></span></li>
                 </ol>
         </section>
+        <hr>
         <section id="education">
           <h2>Education</h2>
           <table>
@@ -100,7 +106,7 @@
           </tr>
           <tr>
             <th>2.</th>
-            <th scope="row">Year</th>
+            <th scope="row">Current Year</th>
             <td>2nd</td>
           </tr>
           <tr>
@@ -115,25 +121,31 @@
           </tr>
           </table>
         </section>
+        <hr>
         <section id="goals">
           <h2>Goals</h2>
           <ul>
             <li>🎯 Become Software Engineer</li>
-            <li>💻 Being updated on coming Web & Tech tools</li>
-            <li>🇸🇬 MSc Technology & Management @ NUS </li>
+            <li>💻 Stay updated with modern Web and AI technologies.</li>
+            <li>🇸🇬   MSc Technology & Management @ NUS </li>
             <li>🚀 Become Technical Program Manager</li>
           </ul>
         </section>
+        <hr>
         <section id="contact">
           <h2>Contact</h2>
+          <div class="links">
           <a href="mailto:aanyamassey05@gmail.com" target="_blank">Email</a>
           <a href="https://github.com/SereneSoftware" target="_blank">Github</a>
           <a href="#">LinkedIn</a>
           <a href="https://www.instagram.com/accounts/onetap/aanya._.aaa" target="_blank">Instagram</a>
+          </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 Aanya Massey</p>
+        <span>&copy; 2026 Aanya Massey</span>
+        <p>Built using <span>HTML5</span> & <span>CSS3</span></p>
     </footer>
+    </div>
   </body>
 </html>

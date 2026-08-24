@@ -1,0 +1,99 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(164, 168, 170);
+  color: rgb(39, 36, 36);
+}
+
+h1 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 500;
+  margin: 8px 0 20px 0;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  background-color: rgb(233, 233, 233);
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px solid gray;
+  box-shadow: 3px 3px 10px rgb(62, 58, 58);
+  max-width: 600px;
+}
+
+input:not(.radioinput),
+textarea,
+select,
+fieldset {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  padding: 7px;
+  width: 95%;
+  border-radius: 5px;
+  outline: none;
+}
+
+label,
+legend {
+  font-size: 1.1rem;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  width: 100px;
+  padding: 5px 0;
+  background-color: rgb(230, 224, 224);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 3px;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 3px solid rgb(58, 48, 48);
+}
+
+option {
+  font-weight: bold;
+}
+
+input:invalid,
+textarea:invalid {
+  border: 3px solid rgb(231, 90, 90);
+}
+
+input:valid,
+textarea:valid {
+  border: 3px solid rgb(143, 217, 141);
+}
+
+.radio-group input[type="radio"]:checked {
+  background-color: rgb(58, 48, 48);
+  border: 2px solid rgb(37, 31, 31);
+  box-shadow: 0px 0px 5px rgb(211, 207, 207);
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: rgb(18, 109, 15);
+}
+
+input:first-of-type {
+  background-color: rgb(232, 226, 226);
+}

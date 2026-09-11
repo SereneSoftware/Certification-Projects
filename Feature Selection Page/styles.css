@@ -1,0 +1,66 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(232, 232, 225);
+  font-family: "Roboto", "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.feature-card-container {
+  width: 360px;
+  height: 150px;
+  border: 2px solid rgb(193, 190, 190);
+  background-color: whitesmoke;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(193, 190, 190);
+  background-color: white;
+  border-radius: 5px;
+  vertical-align: middle;
+  transition: all 0.5s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.feature-card-container:hover {
+  box-shadow: 0px 0px 13px rgb(234, 234, 41);
+  transition: all 0.3s;
+  border: 2px solid rgb(234, 234, 41);
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(234, 234, 41);
+  border-color: rgb(234, 234, 41);
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  transition: all 0.5s;
+  text-align: center;
+  line-height: 20px;
+}

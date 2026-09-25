@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(253, 255, 230);
+  font-family: "Lucida Sans", "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+p {
+  font-weight: 500;
+}
+
+.pricing-container {
+  display:flex;
+  flex-wrap:wrap;
+  border: 3px solid rgb(61, 53, 53);
+  padding : 10px;
+  background-color: rgb(255, 255, 202);
+  box-sizing: border-box;
+}
+
+.pricing-card { 
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.basic-plan {
+  order: 0;
+  background-color: rgb(230, 213, 213);
+  color:rgb(90, 67, 67);
+  flex-grow: 2;
+}
+
+.basic-plan:hover, .pro-plan:hover, .premium-plan:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+  background-color: rgb(213, 228, 230);
+  color: rgb(85, 24, 85)
+}
+
+.premium-plan {
+  order: 2;
+  background-color: rgb(218, 243, 190);
+  color: rgb(129, 114, 29);
+  flex-grow: 2;
+}

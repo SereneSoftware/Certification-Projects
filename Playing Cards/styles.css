@@ -1,0 +1,54 @@
+body {
+  width: 100vw;
+  height:100vh;
+  background:radial-gradient(rgb(255, 255, 255), rgb(250, 250, 178), rgb(255, 214, 139));
+  font-family: Sans-serif;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom: 40px;
+}
+
+.card{
+  box-sizing:border-box;
+  height: 350px;
+  width: 260px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  background:radial-gradient(white 80%, rgb(244, 241, 241));
+  box-shadow: 4px 4px 5px grey;
+}
+
+#playing-cards {
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 20px;
+}
+
+.left {
+  align-self:flex-start;
+}
+
+.middle {
+  align-self:center;
+}
+
+.right {
+  align-self:flex-end;
+}
+
+#ace, #spade, #heart{
+  font-size: 1.5rem;
+}
+
+#ace-mid, #spade-mid, #heart-mid {
+  font-size: 3rem;
+}
+
+#heart-card {
+  color:red;
+} 

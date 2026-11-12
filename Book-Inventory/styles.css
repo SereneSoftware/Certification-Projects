@@ -1,0 +1,101 @@
+tr[class="read"] {
+  background-image: linear-gradient(
+    rgb(241, 252, 186),
+    rgb(231, 248, 197)
+  ,rgb(197, 251, 197))
+}
+body {
+  font-family: "Comic Sans MS", cursive;
+}
+tr[class="to-read"] {
+  background-image: linear-gradient(
+    rgb(241, 252, 186),
+    rgb(248, 240, 197)
+  ,rgb(251, 228, 197))
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(
+    rgb(197, 251, 212),
+    rgb(197, 241, 248),
+  rgb(186, 210, 252))
+}
+
+span {
+  display:inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border:2px dotted rgb(125, 71, 71);
+  background-image: linear-gradient(rgb(254, 192, 192),
+  rgb(253, 166, 135),
+  rgb(255, 126, 115));
+  border-radius:9px;
+  padding:3px;
+  text-align:center;
+}
+
+tr[class="read"] span[class="status"] {
+  border:2px dotted rgb(81, 116, 76);
+  background-image: linear-gradient(rgb(176, 250, 154),
+  rgb(120, 249, 130),
+  rgb(110, 232, 99));
+  border-radius:9px;
+  padding:3px;
+  text-align:center;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border:2px dotted rgb(76, 97, 116);
+  background-image: linear-gradient(rgb(163, 250, 255),
+  rgb(120, 219, 249),
+  rgb(83, 222, 238));
+  border-radius:9px;
+  padding:3px;
+  text-align:center;
+}
+
+span[class="status"],span[class^="rate"] {
+  height:30px;
+  width: 70px;
+  padding:4px;
+}
+
+span[class^="rate"] > span {
+  border: 2px solid rgb(48, 43, 43);
+  border-radius:50%;
+  margin:4px;
+  height:6px;
+  width:6px;
+  background-color: white;
+}
+
+span[class~="one"] span:first-child {
+  background-image: linear-gradient(purple,
+  rgb(101, 41, 98))
+}
+
+span[class~="two"] span:nth-child(-n+2) {
+background-image: linear-gradient(purple,
+  rgb(101, 41, 98))}
+
+span[class~="three"] > span {
+background-image: linear-gradient(purple,
+  rgb(101, 41, 98))}
+
+h1 {
+  text-align:center;
+  margin: 10px 0 30px;
+  font-size: 35px;
+  text-decoration: underline dotted;
+}
+
+table {
+  margin: 20px auto;
+  text-align:center;
+  font-size: 15px;
+}
+
+thead {
+  font-size:18px;
+}
